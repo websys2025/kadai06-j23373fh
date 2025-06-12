@@ -1,3 +1,4 @@
+
 import requests
 
 APP_ID = "dde9a961122c8f6febe8635db27473f025dc0d99"
@@ -7,7 +8,7 @@ def main():
     stats_data_id = "0003143687"  # 平成29年事業所・企業統計調査
 
     # APIのURL
-    url = "https://api.e-stat.go.jp/rest/3.0/app/getStatsData"
+    url = "https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData"
 
     # パラメータ設定
     params = {
@@ -50,4 +51,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
